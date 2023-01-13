@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #080710;
+    background-color: black;
 }
 .background{
     width: 430px;
@@ -55,7 +55,11 @@ form{
 }
 form *{
     font-family: 'Poppins',sans-serif;
-    color: #ffffff;
+    background: linear-gradient(90deg,#00dbde,#fc00ff); 
+    font-size:40px; 
+   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
