@@ -106,3 +106,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
+
+textarea{
+    font-size: 17px;
+}
