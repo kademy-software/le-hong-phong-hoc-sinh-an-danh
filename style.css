@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-     background-image: url('https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433');
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433');
 }
 .background{
     width: 430px;
@@ -55,7 +55,7 @@ form{
 }
 form *{
     font-family: 'Poppins',sans-serif;
-    background: linear-gradient(90deg,#00dbde,#fc00ff); 
+    background: white; 
     font-size:40px; 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
