@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 body{
-   background-image: url('https://cdna.artstation.com/p/assets/images/images/060/460/880/original/pixel-jeff-chill-mario-2023-2.gif?1678633376');
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/060/460/880/original/pixel-jeff-chill-mario-2023-2.gif?1678633376');
+    
 }
 .background{
     width: 430px;
@@ -42,12 +43,12 @@ body{
 form{
     height: 520px;
     width: 430px;
-    background-color: rgba(255,255,255,0.07);
+    background-color: rgba(8,7,16,0.6);
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
-    border-radius: 10px;
+    border-radius: 50px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
@@ -118,6 +119,7 @@ textarea{
 }
 
 @media only screen and (max-width: 600px) {
+  
     form{
         height: 1028px;
         width: 980px;
