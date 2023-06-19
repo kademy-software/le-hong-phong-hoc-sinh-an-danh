@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Lê Hồng Phong nè</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="tocao.css">
+    
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-96ZCD4X8YQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-96ZCD4X8YQ');
+</script>
+<body>
+       
+    <div id="preloader">
+
+    </div>
+    <div class="background">
+       
+    </div>
+    <form  action="https://formspree.io/f/xjvdnjkv"
+    method="POST">
+        <h3>Tố cáo
+            <span>CFS | Hôm nay bạn thế nào ?</span>
+        </h3>
+        <label>Số confessions</label>
+        <textarea id="so" name="so" type="text" placeholder="Số" id="username" required>
+        
+</textarea>
+<label for="li_do">Lí do</label>
+
+<select name="ld" id="ld">
+  <option value="tingia">Tin giả ( Tôi đang bị vu khống )</option>
+  <option value="vptc">Vi phạm tiêu chuẩn cộng đồng</option>
+  <option value="mtck">Mang tính công kích cá nhân</option>
+  <option value="khac">Khác</option>
+</select>    
+       
+
+        <button>Gửi đi!</button>
+    </form>
+</body>
+<script>
+    var loader=document.getElementById("preloader");
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+    })
+</script>    
+</html>
