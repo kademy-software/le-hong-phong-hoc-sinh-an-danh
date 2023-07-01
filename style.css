@@ -112,7 +112,7 @@ button{
     cursor: pointer;
 }
 #preloader{
-    background: #000 url('https://i.pinimg.com/originals/86/c0/25/86c025297e8b557da4522d2b48cd1757.gif') no-repeat center center; 
+    background: #000 url('https://cdn.pixabay.com/animation/2022/07/31/05/09/05-09-47-978_512.gif') no-repeat center center; 
     height: 100vh; 
     width:100%; 
    position : fixed; 
