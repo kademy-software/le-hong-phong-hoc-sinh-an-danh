@@ -41,7 +41,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Chào mừng bạn</h2>
+           <div class="chao">DEMO TEXT </div>
 
         </div>
 
@@ -124,7 +124,17 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js">
+    let container = document.querySelector(".chao");
+let timeNow = new Date().getHours();
+let greeting =
+  timeNow >= 5 && timeNow < 12
+    ? "Chào buổi sáng"
+    : timeNow >= 12 && timeNow < 18
+    ? "Chào buổi chiều"
+    : "Ngủ ngon";
+container.innerHTML = `<h1>${greeting}</h1>`;
+  </script>
 
 </body>
 
